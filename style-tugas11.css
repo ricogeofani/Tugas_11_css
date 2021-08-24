@@ -1,0 +1,49 @@
+* {
+    padding: 1px;
+    margin: 1px;
+}
+
+ .background{
+    background-color: rgb(228, 228, 228);
+    box-shadow: -5px 5px 3px rgb(207, 200, 200);
+}
+
+header {
+    background-color: black;
+    height: 50px;
+}
+
+header ul li {
+    display: inline;
+    float: left;
+    padding: 12px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    margin: 30px 10px 0 10px;
+}
+
+.content p {
+    column-count: 4;
+    margin-top: 20px;
+    column-rule: 1px solid black;
+    column-fill: balance;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+.footer {
+    background-color: black;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.footer h2 {
+    color: white;
+    text-align: center;
+}
